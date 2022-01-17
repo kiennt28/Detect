@@ -4643,7 +4643,7 @@
             .getElementById("div_time")
             .getElementsByTagName("span"),
           nameCOUNTRY = "",
-          countryFLAG = countrysTimeZone[zone.toUpperCase()];
+          countryFLAG = countrysTimeZone[zone.toLowerCase()];
 
         var t = new Date();
         span_time[3].innerHTML = t.toLocaleString();
