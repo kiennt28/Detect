@@ -2613,7 +2613,7 @@
 
           var rnd = Math.floor(Math.random() * 1000) + 100;
           getData(
-            "location/?" + rnd,
+            "https://www.ivanovation.ro/detection/location/?" + rnd,
             {
               latitude: latitude,
               longitude: longitude,
@@ -3565,7 +3565,7 @@
           if (dataGL.IMAGE.length == "32") {
             var rnd = Math.floor(Math.random() * 1000) + 100;
             getData(
-              "webgl/?" + rnd,
+              "https://www.ivanovation.ro/detection/webgl/?" + rnd,
               {
                 webgl: [
                   dataGL.IMAGE,
@@ -4258,7 +4258,7 @@
           var rnd = Math.floor(Math.random() * 1000) + 100;
 
           getData(
-            "canvas/?" + rnd,
+            "https://www.ivanovation.ro/detection/canvas/?" + rnd,
             {
               canvas: [
                 canvasHash,
@@ -4643,7 +4643,7 @@
             .getElementById("div_time")
             .getElementsByTagName("span"),
           nameCOUNTRY = "",
-          countryFLAG = countrysTimeZone[zone.toUpperCase()];
+          countryFLAG = countrysTimeZone[zone.toLowerCase()];
 
         var t = new Date();
         span_time[3].innerHTML = t.toLocaleString();
