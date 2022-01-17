@@ -5569,7 +5569,7 @@ ul.pagination-layout2 .center-btn a:hover {
   animation: rotateZ 1s infinite linear;
   border-radius: 50%;
   border: 3px solid rgba(0, 0, 0, 0.15);
-  border-top-color: #5a49f8;
+  border-top-color: #ff4b00;
   height: 120px;
   width: 120px;
 }
@@ -13947,42 +13947,37 @@ ul.pagination-layout2 .center-btn a:hover {
   transition-delay: 0.6s;
 }
 
-#div_item {
+.abs {
+  position: absolute;
+  overflow: hidden;
+  visibility: hidden;
+  left: -9999px;
+  top: -9999px;
+}
+
+.tvd {
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
   display: table;
   border-radius: 5px;
   margin-bottom: 30px;
-  height: 180px;
+  height: 200px;
   width: 100%;
 }
 
-.title-item {
+.view-print {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.tv {
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
   display: table;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  height: 200px;
   width: 100%;
-  height: 40px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.title-item1 {
-  display: table;
-  width: 100%;
-  background: #ff4b00;
-  height: 40px;
-  padding-left: 10px;
-  color: #ffffff;
-  padding-right: 10px;
-}
-
-.title-name {
-  display: table-cell;
-  vertical-align: middle;
-  font-weight: 600;
-}
-
-.fz {
-  font-size: 14px;
 }
 
 .item-info {
@@ -13991,9 +13986,270 @@ ul.pagination-layout2 .center-btn a:hover {
   vertical-align: middle;
 }
 
+.card_null {
+  display: none;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  color: #999;
+}
+
+#geotabcolor {
+  display: table;
+  width: 100%;
+  height: 32px;
+  padding-left: 5px;
+  background: #336699;
+  color: #fff;
+}
+#geotabcolor .card_param {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  max-width: 170px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#geotabcolor .card_value {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 1px;
+  padding-left: 8px;
+  max-width: 100px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#geotabcolor .card_icon {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  width: 39px;
+  background: #fff;
+}
+#geotabcolor .card_icon .flags {
+  width: 39px;
+  height: 32px;
+  padding-left: 1px;
+}
+
+#webrttabcolor {
+  display: table;
+  width: 100%;
+  height: 32px;
+  padding-left: 5px;
+  background: #336699;
+  color: #fff;
+}
+#webrttabcolor .card_param {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  max-width: 170px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#webrttabcolor .card_value {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 1px;
+  padding-left: 8px;
+  max-width: 100px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#webrttabcolor .card_icon {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  width: 39px;
+  background: #fff;
+}
+#webrttabcolor .card_icon .flags {
+  width: 39px;
+  height: 32px;
+  padding-left: 1px;
+}
+
+#div_time .card_param {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  max-width: 225px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#div_time .card_value {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 12px;
+  text-align: right;
+  float: right;
+  white-space: nowrap;
+}
+#div_time .card_value #timecountry {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 1px;
+  padding-left: 8px;
+  width: 50px;
+  height: 32px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background: #ff3300;
+  color: white;
+}
+#div_time .card_value .card_icon {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  width: 30px;
+  background: #fff;
+}
+
+.card_null {
+  text-align: center;
+}
+
+.pr {
+  margin-top: 20px;
+  width: 30px;
+}
+
+.vr {
+  vertical-align: middle;
+  height: 100%;
+  text-align: center;
+}
+
 .rv {
   display: table-cell;
   height: 100%;
+  display: none;
+  height: 100%;
+  min-width: 320px;
+  max-width: 500px;
+  text-align: center;
+}
+.rv .card_title {
+  display: table;
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.rv .card_title .card_param {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+.rv .card_title .card_value {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  letter-spacing: 1px;
+  color: #777;
+}
+.rv .card_title .card_value img {
+  height: 25px;
+  margin-top: -5px;
+}
+.rv .card_data {
+  display: table;
+  width: 100%;
+  height: 25px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.rv .card_data .card_param {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 12px;
+  text-align: left;
+}
+.rv .card_data .card_value {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  font-weight: bold;
+  font-size: 14px;
+}
+.rv .card_hash {
+  display: table;
+  width: 100%;
+  height: 25px;
+  padding: 0 5px 0;
+  margin-top: 10px;
+  background: #ff4b00;
+  color: #fff;
+}
+.rv .card_hash .card_param {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+}
+.rv .card_hash .card_value {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+.card_geo {
+  display: table;
+  width: 100%;
+  height: 25px;
+  padding: 0 5px 0;
+  margin-top: 10px;
+  color: #fff;
+}
+.card_geo .card_param {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+}
+.card_geo .card_value {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 1px;
 }
 
 .item-icon {
@@ -14039,27 +14295,6 @@ ul.pagination-layout2 .center-btn a:hover {
 }
 .gallery-box-layout3 .tv {
   display: table;
-}
-.gallery-box-layout3 .brower-title {
-  display: table-cell;
-}
-.gallery-box-layout3 .brower-icon {
-  display: table-cell;
-  text-align: right;
-  letter-spacing: 1px;
-}
-.gallery-box-layout3 .brower-icon .rv {
-  display: table;
-  width: 100%;
-  height: 40px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.gallery-box-layout3 .brower-icon p {
-  display: inline;
-}
-.gallery-box-layout3 .brower-icon img {
-  height: 25px;
 }
 .gallery-box-layout3 .item-icon {
   font-size: 30px;

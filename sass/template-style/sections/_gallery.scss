@@ -257,48 +257,300 @@
     }
   }
 }
-
-#div_item {
+.abs {
+  position: absolute;
+  overflow: hidden;
+  visibility: hidden;
+  left: -9999px;
+  top: -9999px;
+}
+.tvd {
   box-shadow: rem(0 0 24px 0) rgba(#000000, 0.05);
   background-color: #ffffff;
   display: table;
   border-radius: rem(5px);
   margin-bottom: rem(30px);
-  height: 180px;
+  height: 200px;
   width: 100%;
 }
-.title-item {
+.view-print {
+  background-color: transparent;
+  box-shadow: none;
+}
+.tv {
+  box-shadow: rem(0 0 24px 0) rgba(#000000, 0.05);
+  background-color: #ffffff;
   display: table;
+  border-radius: rem(5px);
+  margin-bottom: rem(30px);
+  height: 200px;
   width: 100%;
-  height: 40px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.title-item1 {
-  display: table;
-  width: 100%;
-  background: #ff4b00;
-  height: 40px;
-  padding-left: 10px;
-  color: #ffffff;
-  padding-right: 10px;
-}
-.title-name {
-  display: table-cell;
-  vertical-align: middle;
-  font-weight: 600;
-}
-.fz {
-  font-size: 14px;
 }
 .item-info {
   display: table-cell;
   text-align: right;
   vertical-align: middle;
 }
+.card_null {
+  display: none;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  color: #999;
+}
+#geotabcolor {
+  display: table;
+  width: 100%;
+  height: 32px;
+  padding-left: 5px;
+  background: #336699;
+  color: #fff;
+  .card_param {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    max-width: 170px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .card_value {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 1px;
+    padding-left: 8px;
+    max-width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .card_icon {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    width: 39px;
+    background: #fff;
+    .flags {
+      width: 39px;
+      height: 32px;
+      padding-left: 1px;
+    }
+  }
+}
+#webrttabcolor {
+  display: table;
+  width: 100%;
+  height: 32px;
+  padding-left: 5px;
+  background: #336699;
+  color: #fff;
+  .card_param {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    max-width: 170px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .card_value {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 1px;
+    padding-left: 8px;
+    max-width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .card_icon {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    width: 39px;
+    background: #fff;
+    .flags {
+      width: 39px;
+      height: 32px;
+      padding-left: 1px;
+    }
+  }
+}
+
+#div_time {
+  .card_param {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    max-width: 225px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .card_value {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+    text-align: right;
+    float: right;
+    white-space: nowrap;
+    #timecountry {
+      display: table-cell;
+      vertical-align: middle;
+      padding-right: 5px;
+      font-weight: bold;
+      font-size: 14px;
+      text-align: right;
+      letter-spacing: 1px;
+      padding-left: 8px;
+      width: 50px;
+      height: 32px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      background: rgb(255, 51, 0);
+      color: rgb(255, 255, 255);
+    }
+    .card_icon {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: right;
+      width: 30px;
+      background: #fff;
+    }
+  }
+}
+.card_null {
+  text-align: center;
+}
+.pr {
+  margin-top: 20px;
+  width: 30px;
+}
+.vr {
+  vertical-align: middle;
+  height: 100%;
+  text-align: center;
+}
 .rv {
   display: table-cell;
   height: 100%;
+  display: none;
+  height: 100%;
+  min-width: 320px;
+  max-width: 500px;
+  text-align: center;
+  .card_title {
+    display: table;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    .card_param {
+      display: table-cell;
+      vertical-align: middle;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: left;
+    }
+    .card_value {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: right;
+      letter-spacing: 1px;
+      color: #777;
+      img {
+        height: 25px;
+        margin-top: -5px;
+      }
+    }
+  }
+  .card_data {
+    display: table;
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    .card_param {
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 12px;
+      text-align: left;
+    }
+    .card_value {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: right;
+      font-weight: bold;
+      font-size: 14px;
+    }
+  }
+  .card_hash {
+    display: table;
+    width: 100%;
+    height: 25px;
+    padding: 0 5px 0;
+    margin-top: 10px;
+    background: #ff4b00;
+    color: #fff;
+    .card_param {
+      display: table-cell;
+      vertical-align: middle;
+      font-weight: bold;
+      font-size: 14px;
+      text-align: left;
+    }
+    .card_value {
+      display: table-cell;
+      vertical-align: middle;
+      font-weight: bold;
+      font-size: 12px;
+      text-align: right;
+      letter-spacing: 1px;
+    }
+  }
+}
+.card_geo {
+  display: table;
+  width: 100%;
+  height: 25px;
+  padding: 0 5px 0;
+  margin-top: 10px;
+  color: #fff;
+  .card_param {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+  }
+  .card_value {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 1px;
+  }
 }
 .item-icon {
   display: table-cell;
@@ -341,27 +593,6 @@
   }
   .tv {
     display: table;
-  }
-  .brower-title {
-    display: table-cell;
-  }
-  .brower-icon {
-    display: table-cell;
-    text-align: right;
-    letter-spacing: 1px;
-    .rv {
-      display: table;
-      width: 100%;
-      height: 40px;
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-    p {
-      display: inline;
-    }
-    img {
-      height: 25px;
-    }
   }
   .item-icon {
     font-size: rem(30px);
