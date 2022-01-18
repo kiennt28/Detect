@@ -6205,8 +6205,9 @@
           udp = "";
         }
         var rnd = Math.floor(Math.random() * 1000) + 100;
+        let apiKey = "5a4e7f2c5dcf3787bfd6e8e8ed03d92f0d571fb9837e1897a93553a7";
         getData(
-          "http://ip-api.com/json/?" + rnd,
+          "https://api.ipdata.co?api-key=" + apiKey + rnd,
           {
             utc: utc,
             udp: udp,
