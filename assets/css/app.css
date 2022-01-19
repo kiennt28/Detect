@@ -4295,7 +4295,7 @@ nav.template-main-menu > ul > li > ul > li:hover ul.third-level {
   background-color: transparent;
   border: 2px solid;
   border-color: #ff4b00;
-  color: #ff4b00;
+  color: #ffffff;
   transition: all 0.5s ease-in-out;
 }
 .btn-ghost i {
