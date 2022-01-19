@@ -6050,7 +6050,8 @@
 
         document.getElementById("ipcity").innerHTML = ipcity.toUpperCase();
         document.getElementById("ipcountry").innerHTML = ipcountry;
-        document.getElementById("ipflag").src = flagPath + ipFLAG + iconExt;
+        document.getElementById("ipflag").src =
+          flagPath + ipFLAG.toLowerCase() + iconExt;
 
         checkCountries();
         enableModule("div_webrtc");
