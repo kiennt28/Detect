@@ -94,6 +94,12 @@
       &:hover {
         background-color: $color_primary;
         color: $color_light;
+        i {
+          color: $color_light;
+        }
+      }
+      i {
+        color: $color_primary;
       }
     }
     nav.template-main-menu {

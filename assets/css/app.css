@@ -3078,6 +3078,12 @@ nav.template-main-menu > ul > li > ul > li:hover ul.third-level {
   background-color: #ff4b00;
   color: #ffffff;
 }
+.sticky .navbar-layout1 .item-btn:hover i {
+  color: #ffffff;
+}
+.sticky .navbar-layout1 .item-btn i {
+  color: #ff4b00;
+}
 .sticky .navbar-layout1 nav.template-main-menu > ul > li > a {
   color: #111111;
   padding: 30px 20px;
@@ -4418,6 +4424,12 @@ nav.template-main-menu > ul > li > ul > li:hover ul.third-level {
   color: #1d2124;
   background-color: #ffffff;
   border-color: #ffffff;
+}
+.btn-ghost.btn-light:hover i {
+  color: #1d2124;
+}
+.btn-ghost.btn-light i {
+  color: #ffffff;
 }
 
 .btn-fill.btn-dark {
@@ -13483,7 +13495,7 @@ ul.pagination-layout2 .center-btn a:hover {
   width: 100%;
   height: 32px;
   padding-left: 5px;
-  background: #336699;
+  background: #ff4b00;
   color: #fff;
 }
 #geotabcolor .card_param {
@@ -13530,7 +13542,7 @@ ul.pagination-layout2 .center-btn a:hover {
   width: 100%;
   height: 32px;
   padding-left: 5px;
-  background: #336699;
+  background: #ff4b00;
   color: #fff;
 }
 #webrttabcolor .card_param {
