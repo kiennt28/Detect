@@ -2323,7 +2323,7 @@
 
           if (geocity.length > 1 && geocountry.length > 1) {
             geocity = geocity.toUpperCase();
-            geocountry = geocountry.toLowerCase();
+            geocountry = geocountry.toUpperCase();
 
             var finalCountryCode = "";
 
@@ -6046,6 +6046,7 @@
             }
           }
         }
+        console.log(ipFLAG);
 
         document.getElementById("ipcity").innerHTML = ipcity.toUpperCase();
         document.getElementById("ipcountry").innerHTML = ipcountry;
