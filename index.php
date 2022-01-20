@@ -5808,11 +5808,11 @@
         box_webrtc = 0;
         <?php
             echo "<pre>";
-            var_dump(getenv('HTTP_CLIENT_IP'););
-            var_dump(getenv('HTTP_X_FORWARDED_FOR'););
-            var_dump(getenv('HTTP_X_FORWARDED'););
-            var_dump(getenv('HTTP_FORWARDED_FOR'););
-            var_dump(getenv('HTTP_FORWARDED'););
+            var_dump(getenv('HTTP_CLIENT_IP'));
+            var_dump(getenv('HTTP_X_FORWARDED_FOR'));
+            var_dump(getenv('HTTP_X_FORWARDED'));
+            var_dump(getenv('HTTP_FORWARDED_FOR'));
+            var_dump(getenv('HTTP_FORWARDED'));
             echo "</pre>";
             die;
         $ipaddress = '';
