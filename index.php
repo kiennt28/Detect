@@ -5807,9 +5807,6 @@
     function webrtcModule() {
         box_webrtc = 0;
         <?php
-            echo "<pre>";
-            var_dump($_SERVER);
-            echo "</pre>";die;
         $ipaddress = '';
         if (getenv('HTTP_CLIENT_IP'))
             $ipaddress = getenv('HTTP_CLIENT_IP');
