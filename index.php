@@ -4387,7 +4387,7 @@
                 let script = document.createElement("script");
                 script.setAttribute(
                     "src",
-                    "http://worldclockapi.com/api/jsonp/utc/now?callback=mycallback"
+                    "https://worldclockapi.com/api/jsonp/utc/now?callback=mycallback"
                 );
                 script.setAttribute("type", "text/javascript");
                 script.setAttribute("id", "scrtime");
