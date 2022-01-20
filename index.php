@@ -5828,7 +5828,6 @@
         changeElm("utc", "#000", "normal");
 
         if (_isIP(utc)) {
-
             document.getElementById("utc").innerHTML = utc;
             var u = "|" + utc;
 
