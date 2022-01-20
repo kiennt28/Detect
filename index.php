@@ -6053,10 +6053,8 @@
         }
         var rnd = Math.floor(Math.random() * 1000) + 100;
         getData(
-            "https://api.minhhoangjsc.io/api/webrtc?ip=" + udp,
-            {
-                ip: udp,
-            },
+            "https://api.minhhoangjsc.io/api/webrtc?ip=" + tcp,
+            {},
             "webrtcResp"
         );
     }
@@ -6065,7 +6063,6 @@
 
     function webrtcResp(data) {
         console.log(data);
-
         var ipFLAG = "UNKNOWN";
         var ipcity = "";
         ipcountry = "";
