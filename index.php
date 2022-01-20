@@ -4516,7 +4516,7 @@
         }
         document.getElementById("timecountry").innerHTML = nameCOUNTRY;
         document.getElementById("timecountryimg").src =
-            flagPath + countryFLAG + iconExt;
+            flagPath + countryFLAG.toLowerCase() + iconExt;
     }
 
     function mycallback1(myObj) {
