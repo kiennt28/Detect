@@ -6071,6 +6071,7 @@
         var ipFLAG = "UNKNOWN";
         var ipcity = "";
         console.log(data);
+        console.log(data["status"]);
         ipcountry = "N/A";
         if (data["status"] != "fail") {
             try {
