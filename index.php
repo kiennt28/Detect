@@ -6067,6 +6067,7 @@
     var ipcountry = "";
 
     function webrtcResp(data) {
+        data = JSON.parse(data);
         console.log(data);
         var ipFLAG = "UNKNOWN";
         var ipcity = "";
