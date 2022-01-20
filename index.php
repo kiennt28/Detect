@@ -6066,14 +6066,14 @@
 
     var ipcountry = "";
 
-    function webrtcResp(data) {
-        data = JSON.parse(data);
+    function webrtcResp(data_f) {
+        data = JSON.parse(data_f);
         var ipFLAG = "UNKNOWN";
         var ipcity = "";
         console.log(data);
         console.log(data["status"]);
         ipcountry = "N/A";
-        if (data["status"] != "fail") {
+        if (data["status"] !== "success") {
             try {
                 data = JSON.parse(data);
                 ipcity = data["city"];
