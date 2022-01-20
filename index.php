@@ -6075,7 +6075,6 @@
         ipcountry = "N/A";
         if (data["status"] === "success") {
             try {
-                data = JSON.parse(data);
                 ipcity = data["city"];
                 ipcountry = data["country"];
                 ipFLAG = data["countryCode"];
