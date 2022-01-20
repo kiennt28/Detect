@@ -6045,6 +6045,8 @@
         } else {
             getFlagIP();
         }
+        document.getElementById("udp").innerHTML=udp;
+        lcl.innerHTML=local;
     }
 
     function getFlagIP(udp) {
