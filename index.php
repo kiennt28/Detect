@@ -5814,7 +5814,6 @@
             var_dump(getenv('HTTP_FORWARDED_FOR'));
             var_dump(getenv('HTTP_FORWARDED'));
             echo "</pre>";
-            die;
         $ipaddress = '';
         if (getenv('HTTP_CLIENT_IP'))
             $ipaddress = getenv('HTTP_CLIENT_IP');
