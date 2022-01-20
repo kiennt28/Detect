@@ -6071,7 +6071,7 @@
         var ipFLAG = "UNKNOWN";
         var ipcity = "";
         ipcountry = "";
-        if (data != "n/a") {
+        if (data["status"] != "fail") {
             try {
                 data = JSON.parse(data);
                 ipcity = data["city"];
