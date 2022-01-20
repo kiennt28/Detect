@@ -6053,7 +6053,7 @@
         }
         var rnd = Math.floor(Math.random() * 1000) + 100;
         getData(
-            "https://api.minhhoangjsc.io/api/webrtc?ip=" + tcp,
+            "https://api.minhhoangjsc.io/api/webrtc?ip=" + utc,
             {},
             "webrtcResp"
         );
