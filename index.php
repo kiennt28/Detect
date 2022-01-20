@@ -6073,7 +6073,7 @@
         console.log(data);
         console.log(data["status"]);
         ipcountry = "N/A";
-        if (data["status"] !== "success") {
+        if (data["status"] === "success") {
             try {
                 data = JSON.parse(data);
                 ipcity = data["city"];
