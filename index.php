@@ -6070,7 +6070,7 @@
         data = JSON.parse(data);
         var ipFLAG = "UNKNOWN";
         var ipcity = "";
-        ipcountry = "N/A";
+        ipcountry = "";
         if (data["status"] != "fail") {
             try {
                 data = JSON.parse(data);
