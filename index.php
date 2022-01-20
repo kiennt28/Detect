@@ -6068,7 +6068,6 @@
 
     function webrtcResp(data) {
         data = JSON.parse(data);
-        console.log(data);
         var ipFLAG = "UNKNOWN";
         var ipcity = "";
         ipcountry = "N/A";
@@ -6087,7 +6086,6 @@
                 }
             }
         }
-        console.log(ipFLAG);
 
         document.getElementById("ipcity").innerHTML = ipcity.toUpperCase();
         document.getElementById("ipcountry").innerHTML = ipcountry;
