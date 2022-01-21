@@ -4504,7 +4504,7 @@
         document.getElementById("timecountryimg").src =
             flagPath + "UNKNOWN" + iconExt;
         if (countryFLAG) {
-            nameCOUNTRY = iso3[countryFLAG];
+            nameCOUNTRY = iso3[countryFLAG.toUpperCase()];
             console.log(countryFLAG);
             if (nameCOUNTRY) {
                 nameCOUNTRY = nameCOUNTRY.toUpperCase();
