@@ -4514,6 +4514,7 @@
             countryFLAG = "UNKNOWN";
             nameCOUNTRY = "N/A";
         }
+        console.log(nameCOUNTRY);
         document.getElementById("timecountry").innerHTML = nameCOUNTRY;
         document.getElementById("timecountryimg").src =
             flagPath + countryFLAG.toLowerCase() + iconExt;
