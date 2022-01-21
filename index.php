@@ -4507,10 +4507,8 @@
             nameCOUNTRY = iso3[countryFLAG.toUpperCase()];
             if (nameCOUNTRY) {
                 nameCOUNTRY = nameCOUNTRY.toUpperCase();
-                console.log(1);
             } else {
                 nameCOUNTRY = "N/A";
-                console.log(2);
             }
         } else {
             countryFLAG = "UNKNOWN";
