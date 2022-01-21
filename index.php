@@ -1188,7 +1188,7 @@
         GR: "GRC",
         GQ: "GNQ",
         GP: "GLP",
-        JP: "JPN",
+        jp: "JPN",
         GY: "GUY",
         GG: "GGY",
         GF: "GUF",
