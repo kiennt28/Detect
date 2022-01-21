@@ -4514,7 +4514,7 @@
             countryFLAG = "UNKNOWN";
             nameCOUNTRY = "N/A";
         }
-        console.log(nameCOUNTRY);
+        console.log(countryFLAG);
         document.getElementById("timecountry").innerHTML = nameCOUNTRY;
         document.getElementById("timecountryimg").src =
             flagPath + countryFLAG.toLowerCase() + iconExt;
@@ -6063,8 +6063,6 @@
             },
             "webrtcResp"
         );
-        console.log(utc);
-        console.log(udp);
     }
 
     var ipcountry = "";
