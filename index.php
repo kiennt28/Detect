@@ -4505,9 +4505,10 @@
             flagPath + "UNKNOWN" + iconExt;
         if (countryFLAG) {
             nameCOUNTRY = iso3[countryFLAG];
-            console.log(nameCOUNTRY);
+            console.log(countryFLAG);
             if (nameCOUNTRY) {
                 nameCOUNTRY = nameCOUNTRY.toUpperCase();
+            console.log(1);
             } else {
                 nameCOUNTRY = "N/A";
             }
