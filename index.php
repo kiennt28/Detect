@@ -1188,7 +1188,7 @@
         GR: "GRC",
         GQ: "GNQ",
         GP: "GLP",
-        jp: "JPN",
+        JP: "JPN",
         GY: "GUY",
         GG: "GGY",
         GF: "GUF",
@@ -4504,7 +4504,7 @@
         document.getElementById("timecountryimg").src =
             flagPath + "UNKNOWN" + iconExt;
         if (countryFLAG) {
-            nameCOUNTRY = iso3[countryFLAG];
+            nameCOUNTRY.toUpperCase() = iso3[countryFLAG];
             if (nameCOUNTRY) {
                 nameCOUNTRY = nameCOUNTRY.toUpperCase();
             } else {
