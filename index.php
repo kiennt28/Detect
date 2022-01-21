@@ -6062,6 +6062,8 @@
             },
             "webrtcResp"
         );
+        console.log(utc);
+        console.log(udp);
     }
 
     var ipcountry = "";
