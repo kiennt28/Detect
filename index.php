@@ -4510,6 +4510,7 @@
                 console.log(1);
             } else {
                 nameCOUNTRY = "N/A";
+                console.log(2);
             }
         } else {
             countryFLAG = "UNKNOWN";
