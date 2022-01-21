@@ -4506,7 +4506,7 @@
         if (countryFLAG) {
             nameCOUNTRY = iso3[countryFLAG];
             if (nameCOUNTRY) {
-                nameCOUNTRY = nameCOUNTRY.toLowerCase();
+                nameCOUNTRY = nameCOUNTRY.toUpperCase();
             } else {
                 nameCOUNTRY = "N/A";
             }
