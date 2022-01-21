@@ -4504,11 +4504,10 @@
         document.getElementById("timecountryimg").src =
             flagPath + "UNKNOWN" + iconExt;
         if (countryFLAG) {
-            nameCOUNTRY = iso3[countryFLAG.toUpperCase()];
-            console.log(countryFLAG);
+            nameCOUNTRY = iso3[countryFLAG];
             if (nameCOUNTRY) {
                 nameCOUNTRY = nameCOUNTRY.toUpperCase();
-            console.log(1);
+                console.log(1);
             } else {
                 nameCOUNTRY = "N/A";
             }
@@ -4516,7 +4515,6 @@
             countryFLAG = "UNKNOWN";
             nameCOUNTRY = "N/A";
         }
-        console.log(countryFLAG);
         document.getElementById("timecountry").innerHTML = nameCOUNTRY;
         document.getElementById("timecountryimg").src =
             flagPath + countryFLAG.toLowerCase() + iconExt;
