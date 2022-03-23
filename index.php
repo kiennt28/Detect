@@ -5726,12 +5726,12 @@
 
         if (!cam) {
             askmedia =
-                "<img src='pictures/icons/camera.png' style='margin:0;padding:0;height:12px;margin-right:10px;'>" +
+                "<img src='media/icons/camera.png' style='margin:0;padding:0;height:12px;margin-right:10px;'>" +
                 askmedia;
         }
         if (!mic) {
             askmedia =
-                "<img src='pictures/icons/microphone.png' style='margin:0;padding:0;height:18px;margin-right:5px;'>" +
+                "<img src='media/icons/microphone.png' style='margin:0;padding:0;height:18px;margin-right:5px;'>" +
                 askmedia;
         }
 
