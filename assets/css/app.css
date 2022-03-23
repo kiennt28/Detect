@@ -9830,6 +9830,15 @@ ul.pagination-layout2 .center-btn a:hover {
     gap: 30px !important;
     padding-bottom: 50px;
   }
+  .main-info .brower-data {
+    width: 250px;
+  }
+  .main-info .system-data {
+    width: 250px;
+  }
+  .main-info .location-data {
+    width: 250px;
+  }
 }
 /*--------------------------------------
 	4.4 Blog
