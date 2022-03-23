@@ -9839,6 +9839,10 @@ ul.pagination-layout2 .center-btn a:hover {
   .main-info .location-data {
     width: 250px;
   }
+
+  .view-print {
+    font-size: 30px;
+  }
 }
 /*--------------------------------------
 	4.4 Blog
