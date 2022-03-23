@@ -2441,7 +2441,8 @@
 }
 @media (max-width: 575px) {
   .main-info {
-    gap: 30px;
+    gap: 30px !important;
+    padding-bottom: 50px;
   }
 
   
