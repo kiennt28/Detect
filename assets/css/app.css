@@ -4725,13 +4725,6 @@ a:focus {
   outline: 0 none;
 }
 
-input,
-textarea {
-  width: 100%;
-  padding: 10px 12px;
-  outline: 0;
-}
-
 button {
   cursor: pointer;
 }
