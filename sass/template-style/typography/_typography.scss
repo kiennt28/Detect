@@ -107,7 +107,7 @@ h6 {
   line-height: rem(30px);
 }
 @media (min-width: 1400px) {
-  .col-sm-6 {
+  .col-lt-6 {
     -ms-flex: 0 0 50% !important;
     flex: 0 0 50% !important;
     max-width: 50% !important;

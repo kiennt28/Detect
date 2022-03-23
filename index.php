@@ -341,7 +341,7 @@
         >
             <div class="container">
                 <div class="row zoom-gallery">
-                    <div class="col-lg-3 col-sm-6 col-12 has-animation">
+                    <div class="col-lg-3 col-sm-6 col-lt-6 col-12 has-animation">
                         <div id="div_browser" class="tvd">
                             <div class="vr" style="display: table-cell">
                                 <div>BROWSER</div>
@@ -382,7 +382,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-12 has-animation">
+                    <div class="col-lg-3 col-sm-6 col-lt-6 col-12 has-animation">
                         <div id="div_system" class="tvd">
                             <div class="vr" style="display: table-cell">
                                 <div>SYSTEM</div>
@@ -422,7 +422,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-12 has-animation">
+                    <div class="col-lg-3 col-sm-6 col-lt-6 col-12 has-animation">
                         <div id="div_display" class="tvd">
                             <div class="vr" style="display: table-cell">
                                 <div>DISPLAY</div>
@@ -462,7 +462,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-12 has-animation">
+                    <div class="col-lg-3 col-sm-6 col-lt-6 col-12 has-animation">
                         <div id="div_fonts" class="tvd">
                             <div class="vr" style="display: table-cell">
                                 <div>FONTS</div>
@@ -502,7 +502,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-12 has-animation">
+                    <div class="col-lg-3 col-sm-6 col-lt-6 col-12 has-animation">
                         <div id="div_location" class="tvd">
                             <div class="vr">
                                 <div>LOCATION</div>
@@ -552,7 +552,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-12 has-animation">
+                    <div class="col-lg-3 col-sm-6 col-lt-6 col-12 has-animation">
                         <div id="div_webgl" class="tvd">
                             <div class="vr">
                                 <div>WebGL</div>
@@ -594,7 +594,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-12 has-animation">
+                    <div class="col-lg-3 col-sm-6 col-lt-6 col-12 has-animation">
                         <div id="div_canvas" class="tvd">
                             <div class="vr" style="display: table-cell">
                                 <div>CANVAS</div>
@@ -634,7 +634,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-12 has-animation">
+                    <div class="col-lg-3 col-sm-6 col-lt-6 col-12 has-animation">
                         <div id="div_media" class="tvd">
                             <div class="vr">
                                 <div>MEDIA</div>
@@ -677,7 +677,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-12 has-animation">
+                    <div class="col-lg-3 col-sm-6 col-lt-6 col-12 has-animation">
                         <div id="div_webrtc" class="tvd">
                             <div class="vr" style="display: table-cell">
                                 <div>WebRTC</div>
@@ -733,7 +733,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-12 has-animation">
+                    <div class="col-lg-3 col-sm-6 col-lt-6 col-12 has-animation">
                         <div id="div_time" class="tvd">
                             <div class="vr" style="display: table-cell">
                                 <div>DATE / TIME</div>
@@ -781,7 +781,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-12 has-animation">
+                    <div class="col-lg-3 col-sm-6 col-lt-6 col-12 has-animation">
                         <div id="div_flash" class="tvd">
                             <div class="vr">
                                 <div>FLASH</div>
@@ -824,7 +824,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-12 has-animation">
+                    <div class="col-lg-3 col-sm-6 col-lt-6 col-12 has-animation">
                         <div id="div_plugins" class="tvd">
                             <div class="vr">
                                 <div>PLUGINS</div>
