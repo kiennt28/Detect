@@ -9841,7 +9841,7 @@ ul.pagination-layout2 .center-btn a:hover {
   }
 
   .view-print {
-    font-size: 30px;
+    font-size: 30px !important;
   }
 }
 /*--------------------------------------
