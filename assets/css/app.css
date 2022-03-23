@@ -173,7 +173,7 @@ h6 {
   line-height: 30px;
 }
 
-@media (min-width: 1400px) {
+@media (max-width: 1400px) {
   .col-lt-6 {
     -ms-flex: 0 0 50% !important;
     flex: 0 0 50% !important;
