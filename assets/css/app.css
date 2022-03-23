@@ -8559,6 +8559,7 @@ ul.pagination-layout2 .center-btn a:hover {
   justify-content: center;
   align-items: center;
   gap: 50px;
+  flex-wrap: wrap;
 }
 .main-banner-wrap-layout6 .main-info .brower-data {
   border: 1px solid #fff;
@@ -9824,6 +9825,11 @@ ul.pagination-layout2 .center-btn a:hover {
   display: none;
 }
 
+@media (max-width: 575px) {
+  .main-info {
+    gap: 30px;
+  }
+}
 /*--------------------------------------
 	4.4 Blog
 ---------------------------------------*/

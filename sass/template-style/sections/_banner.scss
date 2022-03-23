@@ -1259,6 +1259,7 @@
   }
   @media only screen and (max-width: 575px) {
     padding: rem(45px 0 75px);
+    
   }
   .animated-figure {
     @media only screen and (max-width: 1199px) {
@@ -1289,6 +1290,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
+    flex-wrap: wrap;
     .brower-data {
       border: 1px solid #fff;
       border-radius: 20px;
@@ -2436,4 +2438,11 @@
       }
     }
   }
+}
+@media (max-width: 575px) {
+  .main-info {
+    gap: 30px;
+  }
+
+  
 }
